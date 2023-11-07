@@ -1,0 +1,9 @@
+<h3>Section 2 - Exercise 3</h3>
+<button class="btn btn-primary" (click)="toggleDisplayParagraph()">
+  Display Details
+</button>
+<p *ngIf="displayParagraph">Secret password is 'Tuna'</p>
+<p *ngFor="let timeStamp of buttonHistory"
+  [ngStyle]="{backgroundColor: isFifthOrMore(timeStamp) ? 'blue' : 'none'}"
+  [ngClass]="{whiteColor: isFifthOrMore(timeStamp)}"
+> {{timeStamp}} </p>
