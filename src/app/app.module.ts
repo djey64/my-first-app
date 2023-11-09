@@ -9,6 +9,10 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { Section2exo2Component } from './section2exo2/section2exo2.component';
 import {FormsModule} from "@angular/forms";
 import { Section2exo3Component } from './section2exo3/section2exo3.component';
+import { GameControlComponent } from './section5exo4/game-control/game-control.component';
+import { OddComponent } from './section5exo4/odd/odd.component';
+import { EvenComponent } from './section5exo4/even/even.component';
+import {Section5exo4Component} from "./section5exo4/section5exo4.component";
 
 @NgModule({
   declarations: [
@@ -19,6 +23,10 @@ import { Section2exo3Component } from './section2exo3/section2exo3.component';
     SuccessAlertComponent,
     Section2exo2Component,
     Section2exo3Component,
+    Section5exo4Component,
+    GameControlComponent,
+    OddComponent,
+    EvenComponent,
   ],
   imports: [
     BrowserModule,

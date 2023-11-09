@@ -1,0 +1,6 @@
+<h3>Section 5 - Exercise 4</h3>
+<app-game-control (gameStarted)="gameStarted($event)"></app-game-control>
+<div *ngFor="let number of numbers">
+  <app-odd [number]="number" *ngIf="number % 2 > 0" ></app-odd>
+  <app-even [number]="number" *ngIf="number % 2 === 0"></app-even>
+</div>
